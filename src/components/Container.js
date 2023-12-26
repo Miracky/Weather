@@ -10,7 +10,7 @@ function Container({ weatherData }) {
   };
 
   return (
-    <div style={{ textAlign: "center", padding: "20px" }}>
+    <div>
       {weatherData && (
         <div>
           <h2>{weatherData.name}</h2>

@@ -1,8 +1,3 @@
-*{
-
-    padding: 0%;
-}
-
 select {
     width: 500px;
     height: 50px;
@@ -13,15 +8,15 @@ select {
 }
 
 .header-container {
+    
     color: cyan;
     background-size: cover;
     background-position: center;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    height: 100vh;
 }
 
 .header-container>p {
@@ -29,6 +24,4 @@ select {
 }
 
 
-/* .default-background {
-    background-image: url('default-image-url');
-  } */
+/*  */
