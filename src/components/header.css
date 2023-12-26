@@ -1,0 +1,34 @@
+*{
+
+    padding: 0%;
+}
+
+select {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 25px;
+}
+
+.header-container {
+    color: cyan;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header-container>p {
+    color: cyan;
+}
+
+
+/* .default-background {
+    background-image: url('default-image-url');
+  } */
