@@ -3,15 +3,13 @@ import axios from "axios";
 import Container from "./Container";
 import "./header.css";
 
-
 function Header() {
   const APIKEY = process.env.REACT_APP_API_KEY;
   const [weatherData, setWeatherData] = useState(null);
   const [city, setCity] = useState(
-    localStorage.getItem("lastCity") || "london"
+    localStorage.getItem("lastCity") || "ankara"
   );
 
- 
   const [backgroundImage, setBackgroundImage] = useState(null);
 
   useEffect(() => {
@@ -25,7 +23,7 @@ function Header() {
           `url(https://source.unsplash.com/1600x900/?${city})`
         );
         localStorage.setItem("lastCity", city);
-      })
+      });
   });
 
   const handleCityChange = (e) => {
